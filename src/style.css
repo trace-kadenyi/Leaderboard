@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  border: 2px black solid;
+}
+
+.nav-div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(154, 173, 189);
+  height: 70px;
+  border-top: 2px black solid;
+}
+
+.heading {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+.fa-icon {
+  color: black;
+}
+
+#link {
+  width: 50%;
+  padding: 10px;
+}
+
+.fa-search {
+  padding: 15px;
+}
+
+.main-sect {
+  border-top: 2px black solid;
+}
+
+.main-head {
+  font-size: 3rem;
+  padding-left: 20px;
+}
+
+.recent {
+  width: 50%;
+}
+
+table {
+  width: 80%;
+  border: 2px black solid;
+}
+
+td {
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+
+table > tbody > tr:nth-of-type(even) {
+  background-color: rgb(210, 220, 229);
+}
+
+.add-score {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-score {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+
+.input-score > input {
+  padding: 7px;
+  width: 95%;
+}
+
+.main-body {
+  display: flex;
+  padding: 20px 50px;
+}
+
+.refresh {
+  padding: 5px;
+  width: 80px;
+  box-shadow: 2px 2px 3px 3px;
+}
+
+.submit {
+  width: 80px;
+  align-self: flex-end;
+  margin-right: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px 3px 3px;
+}
+
+.add-heading {
+  padding-left: 10px;
+}
+
+#footer {
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(154, 173, 189);
+  border-top: 2px black solid;
+}
