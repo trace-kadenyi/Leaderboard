@@ -1,46 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-
-  /* position: relative; */
   height: 100%;
-  border: 2px black solid;
-}
-
-.nav-div {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(154, 173, 189);
-  height: 70px;
-  border-top: 2px black solid;
-}
-
-.heading {
-  text-align: center;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-}
-
-li {
-  margin: 0 10px;
-}
-
-.fa-icon {
-  color: black;
-}
-
-#link {
-  width: 50%;
-  padding: 10px;
-}
-
-.fa-search {
-  padding: 15px;
+  font-family: cursive;
 }
 
 .main-sect {
@@ -67,7 +29,12 @@ td {
 }
 
 table > tbody > tr:nth-of-type(even) {
-  background-color: rgb(210, 220, 229);
+  background-color: rgb(219, 146, 9);
+}
+
+table > tbody > tr:nth-of-type(odd) {
+  background-color: black;
+  color: white;
 }
 
 .add-score {
@@ -98,6 +65,7 @@ table > tbody > tr:nth-of-type(even) {
   padding: 5px;
   width: 80px;
   box-shadow: 2px 2px 3px 3px;
+  background-color: rgb(219, 146, 9);
 }
 
 .submit {
@@ -112,13 +80,16 @@ table > tbody > tr:nth-of-type(even) {
   padding-left: 10px;
 }
 
-#footer {
-  height: 30px;
+button {
+  cursor: pointer;
+}
 
-  /* position: absolute; */
+button:hover {
+  color: white;
+  border-radius: 30%;
+  background-color: black;
+}
 
-  /* bottom: 0; */
-  width: 100%;
-  background-color: rgb(154, 173, 189);
-  border-top: 2px black solid;
+.fa-star {
+  color: rgb(219, 146, 9);
 }
