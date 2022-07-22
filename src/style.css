@@ -7,15 +7,20 @@ body {
 
 .main-sect {
   border-top: 2px black solid;
+  background: linear-gradient(rgba(67, 62, 62, 0.7), rgba(49, 48, 48, 0.7)), url(./game7.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-head {
   font-size: 3rem;
   padding-left: 20px;
+  color: white;
 }
 
 .recent {
   width: 50%;
+  color: white;
 }
 
 table {
@@ -30,6 +35,7 @@ td {
 
 table > tbody > tr:nth-of-type(even) {
   background-color: rgb(219, 146, 9);
+  color: black;
 }
 
 table > tbody > tr:nth-of-type(odd) {
@@ -78,6 +84,7 @@ table > tbody > tr:nth-of-type(odd) {
 
 .add-heading {
   padding-left: 10px;
+  color: white;
 }
 
 button {
@@ -92,4 +99,18 @@ button:hover {
 
 .fa-star {
   color: rgb(219, 146, 9);
+}
+
+.blink {
+  animation-duration: 0.5s;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: steps(5, start);
+}
+
+@keyframes blink {
+  80% {
+    visibility: hidden;
+  }
 }
