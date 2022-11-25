@@ -4,7 +4,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Leaderboard App</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard App] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
 **Leaderboard** is an app that records the scores of various players. The data is posted on an api through a form and immediately fetched from the api once the players' list is refreshed. You can have fun with this project by playing games and recording your scores accordingly.
 
