@@ -7,11 +7,14 @@
 
 ## Built With
 
-- Major languages: HTML | CSS | JavaScript | Webpack
+- Major languages/Tools: HTML | CSS | JavaScript | Webpack
 
 ## Preview
+![image](https://user-images.githubusercontent.com/40690789/204050096-6b1edbf1-dc5f-4ee7-852f-d65b49d5b544.png)
+
 
 ## Live Demo
+[LIVE DEMO LINK](https://gleeful-biscochitos-6ab54f.netlify.app/)
 
 ## Getting started
 
