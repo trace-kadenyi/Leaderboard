@@ -2,12 +2,16 @@
 
 # Project Name: Leaderboard
 
-> Description of the project: A leaderboard project.  
+> Description of the project: A leaderboard project that records the scores of various players. The data is posted on an api through a form and immediately fetched from the api once the players' list is refreshed.
 
 
 ## Built With
 
 - Major languages: HTML | CSS | JavaScript | Webpack
+
+## Preview
+
+## Live Demo
 
 ## Getting started
 
