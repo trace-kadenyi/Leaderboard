@@ -15,11 +15,13 @@ const trackScores = (gameScores) => {
   });
 };
 
-// fetch added score from API
+// fetch and sort scores from API
 const fetchData = async () => {
-  await fetch(addDataUrl)
-    .then((response) => response.json())
-    .then((json) => trackScores(json.result));
+  const response = await fetch(addDataUrl);
+  const data = await response.json();
+  const gameScores = data.result;
+  gameScores.sort((a, b) => b.score - a.score);
+  trackScores(gameScores);
 };
 
 export default fetchData;
