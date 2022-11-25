@@ -5,7 +5,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Leaderboard App</b></h3>
 
 </div>
 
@@ -42,6 +42,8 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -163,6 +165,8 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+> Give credit to everyone who inspired your codebase.
+
 I would like to thank the entire Microverse community for the resources and support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -178,4 +182,10 @@ I would like to thank the entire Microverse community for the resources and supp
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
 
