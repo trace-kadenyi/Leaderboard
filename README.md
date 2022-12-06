@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://gleeful-biscochitos-6ab54f.netlify.app/)
+- [Live Demo Link](https://playful-dragon-df58b2.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
